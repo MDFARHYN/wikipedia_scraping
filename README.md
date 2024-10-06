@@ -36,8 +36,8 @@ Here’s a screenshot of a simple bar chart visualizing Wikipedia data:
 
 ## Want to Learn More?
 
-- Check out my [blog post](#) for the full guide on web scraping.
-- Watch the [YouTube tutorial](#) for a step-by-step walkthrough.
+- Check out my [blog post](https://rayobyte.com/community/scraping-project/scraping-wikipedia-with-python-extract-articles-and-metadata/) for the full guide on web scraping.
+- Watch the [YouTube tutorial](https://www.youtube.com/watch?v=0zPLvMwNmMc) for a step-by-step walkthrough.
 - Visit my [website](https://farhyn.com/) for more projects and tutorials.
 
 ---
