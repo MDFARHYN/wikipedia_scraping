@@ -7,7 +7,7 @@ logging.basicConfig(filename='scraping.log',
                     level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-url = 'https://en.wikipedia.org/wiki/Python_(programming_language)'
+url = 'https://easasasnasasasaswikipedia.orasasag/wiki/Python_(programming_language)'
 
 try:
     # Fetch the webpage

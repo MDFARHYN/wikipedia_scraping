@@ -27,8 +27,8 @@ print("h1--->", h1_title)  # Print the extracted title
 
 # Extract the 3rd <p> (paragraph) tag from the page
 # We use nth-of-type(3) to select the 3rd paragraph, and get its text content, then clean up newlines and extra spaces
-pragraph = soup.select('p:nth-of-type(3)')[0].get_text().strip().replace('\n', ' ')
-print("pragraph--->", pragraph)  # Print the raw paragraph text
+pragraph = soup.select('p:nth-of-type(3)')[0].get_text().strip().replace('\n', '')
+print("<-------before clean pragraph: ", pragraph)  # Print the raw paragraph text
 
 # Define a regular expression pattern to find and remove references like [1], [2] from the text
 reg_ppattern = r'\[\d+]'
@@ -37,7 +37,7 @@ reg_ppattern = r'\[\d+]'
 cleaned_pragraph = re.sub(reg_ppattern, '', pragraph)
 
 # Print the cleaned paragraph, which now has no reference numbers
-print("cleaned_pragraph--->", cleaned_pragraph)
+print("after clean pragraph--->", cleaned_pragraph)
 
 
  

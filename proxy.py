@@ -7,8 +7,8 @@ logging.basicConfig(filename='scraping.log', level=logging.INFO, format='%(ascti
 
 # Proxy setup (replace with your proxy details)
 proxies = {
-    'http': 'http://your_proxy_ip:port',
-    'https': 'https://your_proxy_ip:port'
+   
+    'https': 'https://username:password:server_name:port'
 }
 
 url = 'https://en.wikipedia.org/wiki/Python_(programming_language)'
